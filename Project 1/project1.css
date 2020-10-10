@@ -1,0 +1,104 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-style: italic;
+}
+
+div {
+    display: flex;
+}
+
+.header-title {
+    font-family: "Snell Roundhand", "Brush Script MT", cursive;
+    font-size: 50px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-left: 1px solid black;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+    flex-direction: row; 
+    border-right: 1px solid black;
+    border-bottom: 3px solid black;
+}
+
+.header {
+    border-bottom: 3px solid black;
+    justify-content: center;
+}
+
+.top {
+    border-top: 0;
+}
+
+.one {
+    width: 25%;
+}
+
+.two {
+    width: 50%;
+}
+
+.three {
+    width: 75%;
+    border-left: 1px solid black;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.corgi {
+    width: 100%;
+}
+
+.section {
+    padding: 10px 30px;
+    align-items: center;
+    flex: 1;
+}
+
+.title {
+    font-weight: normal;
+    text-align: center;
+}
+
+.link {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Tahoma";
+    color: gray;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.politics {
+    background-color: #fce087;
+}
+
+.technology {
+    background-color: cyan;
+}
+
+.local {
+    background-color: aquamarine;
+}
+
+.opinion {
+    background-color:deepskyblue;
+}
+
+.sports {
+    background-color: mediumpurple;
+}
