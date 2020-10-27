@@ -102,3 +102,15 @@ div {
 .sports {
     background-color: mediumpurple;
 }
+
+@media only screen and (max-width:600px){
+    .column {
+        background-color: lightblue;
+    }
+    .row {
+        flex-direction: column;
+    }
+    .one, .two, .three {
+        width:100%;
+    }
+}
